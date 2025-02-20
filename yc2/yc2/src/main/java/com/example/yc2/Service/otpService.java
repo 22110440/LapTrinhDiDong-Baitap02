@@ -31,7 +31,7 @@ public class otpService {
         otpRepository.save(otpEntity);  // Lưu OTP vào cơ sở dữ liệu
 
         // Gửi OTP qua email cho người dùng
-        emailUtil.sendOTP(email, otpCode);
+//        emailUtil.sendOTP(email, otpCode);
 
         return otpCode; // Trả về mã OTP đã gửi
     }
